@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shang_wei?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: root
+    password: 888888
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  port: 8181
